@@ -67,7 +67,7 @@ export default function FeaturesSection() {
 
             <div className="relative z-10 max-w-7xl mx-auto px-6 lg:px-8">
                 {/* Section Header */}
-                <div className="text-center mb-20">
+                <div className="text-center mb-10">
                     <div className="inline-block mb-4">
                         <span className="glass-effect px-4 py-2 rounded-full text-sm font-medium text-orange-400 border border-orange-500/30">
                             Features
@@ -91,7 +91,7 @@ export default function FeaturesSection() {
                             key={index}
                             className="group glass-effect p-8 rounded-2xl border border-orange-500/20 hover:border-orange-500/50 transition-all duration-500 transform hover:scale-105 hover:-translate-y-2 cursor-pointer"
                             style={{
-                                animation: `fadeIn 0.6s ease-out forwards`,
+                                animation: `fade-in 0.6s ease-out forwards`,
                                 animationDelay: `${index * 0.1}s`,
                                 opacity: 0
                             }}

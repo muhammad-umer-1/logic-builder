@@ -15,6 +15,9 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   title: "Logic Builder - Build Logic That Thinks For You",
   description: "Create powerful automation workflows with drag-and-drop simplicity. AI-powered logic automation for everyone.",
+  icons: {
+    icon: "/logo/logo.jpeg",
+  },
 };
 
 export default function RootLayout({
