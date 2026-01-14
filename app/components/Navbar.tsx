@@ -31,21 +31,21 @@ export default function Navbar() {
         <div className="flex items-center justify-between">
           {/* Logo */}
           <Link href="/" className="flex items-center gap-3 group cursor-pointer">
-            <div className="relative w-10 h-10 overflow-hidden rounded-lg border border-white/10 group-hover:border-orange-500/50 transition-colors">
+            <div className="relative w-20 h-20 overflow-hidden rounded-xl border border-white/10 group-hover:border-orange-500/50 transition-colors shadow-2xl shadow-orange-500/10">
               <Image
                 src="/logo/logo.jpeg"
                 alt="Logic Builder Logo"
                 fill
-                className="object-cover"
+                className="object-contain"
               />
             </div>
 
-            {/* Logo Text */}
-            <div className="flex flex-col">
+            {/* Logo Text Removed for cleaner look / focus on logo */}
+            {/* <div className="flex flex-col">
               <span className="text-xl font-bold gradient-text tracking-tight group-hover:text-white transition-colors">
                 Logic Builder
               </span>
-            </div>
+            </div> */}
           </Link>
 
           {/* Navigation Links */}

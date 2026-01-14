@@ -1,10 +1,11 @@
 "use client";
+import Link from "next/link";
 
 import { GridScan } from "./GridScan";
 
 export default function HeroSection() {
     return (
-        <section className="relative min-h-screen flex items-center justify-center overflow-hidden bg-black pt-20 lg:pt-0">
+        <section className="relative min-h-screen flex items-center justify-center overflow-hidden bg-black pt-20">
             {/* Grid Scan Background */}
             <div className="absolute inset-0 z-0">
                 <GridScan
@@ -64,7 +65,7 @@ export default function HeroSection() {
 
                         {/* CTA Buttons */}
                         <div className="flex flex-col sm:flex-row items-center justify-center lg:justify-start gap-4 mb-12">
-                            <button className="btn-primary group px-8 py-4 bg-gradient-to-r from-orange-500 to-orange-600 text-white text-lg font-semibold rounded-xl hover:from-orange-600 hover:to-orange-700 transform hover:scale-105 transition-all duration-300 glow-orange-strong shadow-2xl min-w-[200px]">
+                            <Link href="/contact" className="btn-primary group px-8 py-4 bg-gradient-to-r from-orange-500 to-orange-600 text-white text-lg font-semibold rounded-xl hover:from-orange-600 hover:to-orange-700 transform hover:scale-105 transition-all duration-300 glow-orange-strong shadow-2xl min-w-[200px] flex items-center justify-center">
                                 Start Building
                                 <svg
                                     className="inline-block ml-2 w-5 h-5 transform group-hover:translate-x-1 transition-transform"
@@ -79,8 +80,8 @@ export default function HeroSection() {
                                         d="M13 7l5 5m0 0l-5 5m5-5H6"
                                     />
                                 </svg>
-                            </button>
-                            <button className="group px-8 py-4 glass-effect text-white text-lg font-semibold rounded-xl border border-orange-500/30 hover:border-orange-500 transform hover:scale-105 transition-all duration-300 min-w-[200px]">
+                            </Link>
+                            <Link href="/ai-agents" className="group px-8 py-4 glass-effect text-white text-lg font-semibold rounded-xl border border-orange-500/30 hover:border-orange-500 transform hover:scale-105 transition-all duration-300 min-w-[200px] flex items-center justify-center">
                                 Watch Demo
                                 <svg
                                     className="inline-block ml-2 w-5 h-5"
@@ -101,7 +102,7 @@ export default function HeroSection() {
                                         d="M21 12a9 9 0 11-18 0 9 9 0 0118 0z"
                                     />
                                 </svg>
-                            </button>
+                            </Link>
                         </div>
 
                         {/* Stats - Compact Grid for Split Layout */}

@@ -8,7 +8,7 @@ export default function AboutPage() {
             <Navbar />
 
             {/* Hero Section */}
-            <section className="relative pt-32 pb-20 px-6 lg:px-8">
+            <section className="relative pt-48 pb-20 px-6 lg:px-8">
                 <div className="absolute inset-0 grid-pattern opacity-20 pointer-events-none"></div>
                 {/* Spotlight Effect */}
                 <div className="absolute top-[-10%] left-1/2 -translate-x-1/2 w-[600px] h-[600px] bg-orange-500/10 blur-[100px] rounded-full pointer-events-none"></div>

@@ -8,7 +8,7 @@ export default function ContactPage() {
             <Navbar />
 
             {/* Hero / Header Section */}
-            <section className="relative pt-32 pb-12 px-6 lg:px-8">
+            <section className="relative pt-48 pb-12 px-6 lg:px-8">
                 <div className="absolute inset-0 grid-pattern opacity-20 pointer-events-none"></div>
                 {/* Spotlight Effect */}
                 <div className="absolute top-[-20%] right-[-10%] w-[800px] h-[800px] bg-orange-500/10 blur-[120px] rounded-full pointer-events-none"></div>
@@ -42,7 +42,7 @@ export default function ContactPage() {
                                 </div>
                                 <h3 className="text-lg font-bold mb-2 text-white">Email Us</h3>
                                 <p className="text-gray-400 text-sm mb-4">For general inquiries and support.</p>
-                                <a href="mailto:hello@logicbuilder.ai" className="text-orange-500 hover:text-orange-400 font-semibold transition-colors">hello@logicbuilder.ai</a>
+                                <a href="mailto:support@logicbuilder.ai" className="text-orange-500 hover:text-orange-400 font-semibold transition-colors">support@logicbuilder.ai</a>
                             </div>
 
                             {/* Office Card */}
@@ -52,7 +52,7 @@ export default function ContactPage() {
                                 </div>
                                 <h3 className="text-lg font-bold mb-2 text-white">Visit Us</h3>
                                 <p className="text-gray-400 text-sm mb-4">Talk to us in person.</p>
-                                <span className="text-gray-300 font-medium block">880 Harrison St, <br />San Francisco, CA 94107</span>
+                                <span className="text-gray-300 font-medium block">19574 Hollygrape St, <br />Oregon, US</span>
                             </div>
                         </div>
 
@@ -71,7 +71,7 @@ export default function ContactPage() {
                                 <div className="bg-black/80 backdrop-blur-md p-4 rounded-xl border border-white/10 flex items-center gap-4">
                                     <div className="text-xs text-gray-400">
                                         <span className="block text-white font-bold text-sm">Logic Builder HQ</span>
-                                        San Francisco, CA
+                                        Oregon, US
                                     </div>
                                 </div>
                             </div>

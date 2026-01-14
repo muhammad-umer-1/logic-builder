@@ -1,4 +1,5 @@
 "use client";
+import Link from 'next/link';
 
 export default function Footer() {
     return (
@@ -108,15 +109,15 @@ export default function Footer() {
                         © 2026 Logic Builder. All rights reserved.
                     </p>
                     <div className="flex gap-6">
-                        <a href="#" className="text-gray-400 hover:text-orange-400 transition-colors duration-300 text-sm">
+                        <Link href="/privacy-policy" className="text-gray-400 hover:text-orange-400 transition-colors duration-300 text-sm">
                             Privacy Policy
-                        </a>
-                        <a href="#" className="text-gray-400 hover:text-orange-400 transition-colors duration-300 text-sm">
+                        </Link>
+                        <Link href="/terms" className="text-gray-400 hover:text-orange-400 transition-colors duration-300 text-sm">
                             Terms of Service
-                        </a>
-                        <a href="#" className="text-gray-400 hover:text-orange-400 transition-colors duration-300 text-sm">
+                        </Link>
+                        {/* <a href="#" className="text-gray-400 hover:text-orange-400 transition-colors duration-300 text-sm">
                             Cookie Policy
-                        </a>
+                        </a> */}
                     </div>
                 </div>
             </div>

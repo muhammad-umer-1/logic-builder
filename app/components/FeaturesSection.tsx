@@ -1,4 +1,5 @@
 "use client";
+import Link from "next/link";
 
 export default function FeaturesSection() {
     const features = [
@@ -125,12 +126,12 @@ export default function FeaturesSection() {
 
                 {/* Bottom CTA */}
                 <div className="mt-20 text-center">
-                    <button className="btn-primary px-8 py-4 bg-gradient-to-r from-orange-500 to-orange-600 text-white text-lg font-semibold rounded-xl hover:from-orange-600 hover:to-orange-700 transform hover:scale-105 transition-all duration-300 glow-orange shadow-2xl">
+                    <Link href="/services" className="btn-primary px-8 py-4 bg-gradient-to-r from-orange-500 to-orange-600 text-white text-lg font-semibold rounded-xl hover:from-orange-600 hover:to-orange-700 transform hover:scale-105 transition-all duration-300 glow-orange shadow-2xl inline-flex items-center">
                         Explore All Features
                         <svg className="inline-block ml-2 w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                             <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M14 5l7 7m0 0l-7 7m7-7H3" />
                         </svg>
-                    </button>
+                    </Link>
                 </div>
             </div>
         </section>

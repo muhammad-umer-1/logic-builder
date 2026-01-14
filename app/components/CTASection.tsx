@@ -1,4 +1,5 @@
 "use client";
+import Link from "next/link";
 
 export default function CTASection() {
     return (
@@ -46,7 +47,7 @@ export default function CTASection() {
 
                         {/* CTA Buttons */}
                         <div className="flex flex-col sm:flex-row items-center justify-center gap-4 mb-12 fade-in" style={{ animationDelay: "0.6s" }}>
-                            <button className="btn-primary group px-10 py-5 bg-gradient-to-r from-orange-500 to-orange-600 text-white text-lg font-semibold rounded-xl hover:from-orange-600 hover:to-orange-700 transform hover:scale-105 transition-all duration-300 glow-orange-strong shadow-2xl min-w-[220px]">
+                            <Link href="/contact" className="btn-primary group px-10 py-5 bg-gradient-to-r from-orange-500 to-orange-600 text-white text-lg font-semibold rounded-xl hover:from-orange-600 hover:to-orange-700 transform hover:scale-105 transition-all duration-300 glow-orange-strong shadow-2xl min-w-[220px] flex items-center justify-center">
                                 Get Started Free
                                 <svg
                                     className="inline-block ml-2 w-5 h-5 transform group-hover:translate-x-1 transition-transform"
@@ -61,8 +62,8 @@ export default function CTASection() {
                                         d="M13 7l5 5m0 0l-5 5m5-5H6"
                                     />
                                 </svg>
-                            </button>
-                            <button className="group px-10 py-5 glass-effect text-white text-lg font-semibold rounded-xl border border-orange-500/30 hover:border-orange-500 transform hover:scale-105 transition-all duration-300 min-w-[220px]">
+                            </Link>
+                            <Link href="/contact" className="group px-10 py-5 glass-effect text-white text-lg font-semibold rounded-xl border border-orange-500/30 hover:border-orange-500 transform hover:scale-105 transition-all duration-300 min-w-[220px] flex items-center justify-center">
                                 Schedule Demo
                                 <svg
                                     className="inline-block ml-2 w-5 h-5"
@@ -77,7 +78,7 @@ export default function CTASection() {
                                         d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"
                                     />
                                 </svg>
-                            </button>
+                            </Link>
                         </div>
 
                         {/* Trust Indicators */}

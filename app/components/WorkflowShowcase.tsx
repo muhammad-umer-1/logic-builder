@@ -1,4 +1,5 @@
 "use client";
+import Link from "next/link";
 
 export default function WorkflowShowcase() {
     return (
@@ -48,9 +49,9 @@ export default function WorkflowShowcase() {
                             ))}
                         </div>
 
-                        <button className="btn-primary px-8 py-4 bg-gradient-to-r from-orange-500 to-orange-600 text-white text-lg font-semibold rounded-xl hover:from-orange-600 hover:to-orange-700 transform hover:scale-105 transition-all duration-300 glow-orange">
+                        <Link href="/contact" className="btn-primary px-8 py-4 bg-gradient-to-r from-orange-500 to-orange-600 text-white text-lg font-semibold rounded-xl hover:from-orange-600 hover:to-orange-700 transform hover:scale-105 transition-all duration-300 glow-orange inline-block text-center">
                             Try It Now
-                        </button>
+                        </Link>
                     </div>
 
                     {/* Right Visual */}
