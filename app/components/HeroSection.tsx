@@ -23,9 +23,9 @@ export default function HeroSection() {
                 <GridScan
                     sensitivity={0.55}
                     lineThickness={1}
-                    linesColor="#1e293b"
+                    linesColor="#eb5f0e"
                     gridScale={0.1}
-                    scanColor="#60a5fa"
+                    scanColor="#eb5f0e"
                     scanOpacity={0.3}
                     enablePost={true}
                     bloomIntensity={0.4}
@@ -37,8 +37,8 @@ export default function HeroSection() {
 
             {/* Radial Gradient Overlay - Blue/Slate tones */}
             <div className="absolute inset-0 z-0 pointer-events-none">
-                <div className="absolute top-1/4 left-1/4 w-96 h-96 bg-blue-500/8 rounded-full blur-3xl spotlight"></div>
-                <div className="absolute bottom-1/4 right-1/4 w-96 h-96 bg-slate-500/10 rounded-full blur-3xl spotlight" style={{ animationDelay: "2s" }}></div>
+                <div className="absolute top-1/4 left-1/4 w-96 h-96 bg-eb5f0e/8 rounded-full blur-3xl spotlight"></div>
+                <div className="absolute bottom-1/4 right-1/4 w-96 h-96 bg-eb5f0e/10 rounded-full blur-3xl spotlight" style={{ animationDelay: "2s" }}></div>
             </div>
 
             {/* Content Container */}
