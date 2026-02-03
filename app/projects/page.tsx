@@ -103,7 +103,7 @@ export default function ProjectsPage() {
                                     className="absolute inset-0 z-10 cursor-pointer group/overlay"
                                 >
                                     <Image
-                                        src="/thumbnails/automation-v2.png"
+                                        src="/thumbnails/partnership-v1.png"
                                         alt="Project Showcase"
                                         fill
                                         className="object-contain transition-transform duration-700 group-hover/overlay:scale-105"
