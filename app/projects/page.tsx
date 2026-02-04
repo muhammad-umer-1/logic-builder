@@ -24,7 +24,7 @@ export default function ProjectsPage() {
                     </h1>
                     <p className="text-xl text-slate-400 max-w-3xl mx-auto">
                         Discover our cutting-edge automation solutions and AI-powered workflows
-                        that are transforming businesses across industries.
+                        that are transforming businesses across the industries.
                     </p>
                 </div>
 
